@@ -359,10 +359,6 @@ final class LlmAnswerExtractor {
 
 	/** {@code value} capped for a log line, so one degenerate entry cannot dominate it. */
 
-//	private static String abbreviate(String value) {
-//		return value.length() <= 40 ? value : value.substring(0, 40) + "…";
-//	}
-
 	/**
 	 * Unconditional split: rewrites every {@code [a/b/...]} group into {@code [a], [b], ...}.
 	 * Used when no citation context is available to disambiguate citation shorthand from a
